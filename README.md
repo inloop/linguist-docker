@@ -7,5 +7,5 @@ Docker image for linguist
 Inside repository folder run this command
 
 ```
-docker run -v `pwd`:`pwd` -w `pwd` linguist linguist --json
+docker run -v `pwd`:`pwd` -w `pwd` inloopx/linguist linguist --json
 ```
